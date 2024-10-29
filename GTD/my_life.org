@@ -1,0 +1,1026 @@
+#org-mode is a way of life
+ 
+#+STARTUP: logdone
+#+TODO: TODO(t) NEXT(n) PROJECT(p) WAITING(w) SOMEDAY(s) | DONE(d) CANCEL(c)  
+#+PROPERTY: Effort_ALL 0 0:10 0:30 1:00 2:00 3:00 4:00 5:00 6:00 7:00
+#+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM 
+
+
+#+BEGIN: columnview :hlines 1 :id "label"
+#+END:
+#+END:
+
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2024-09-08 Sun 14:30]
+#+END:
+
+#+BEGIN: clocktable :tstart "<2022-11-24 Thu 7:00>" :tend "<2022-11-24 Thu 12:00>"
+#+END: clocktable
+
+#+BEGIN: clocktable :maxlevel 5 :block today-1   :scope file :tags non-nil
+#+CAPTION: Clock summary at [2024-10-02 Wed 11:34], for Tuesday, October 01, 2024.
+| Tags | Headline                                     | Time   |      |      |
+|------+----------------------------------------------+--------+------+------|
+|      | *Total time*                                 | *7:29* |      |      |
+|------+----------------------------------------------+--------+------+------|
+|      | PROJECTS                                     | 7:29   |      |      |
+| Pan  | \_  Pan Proj[28%]                            |        | 7:29 |      |
+| Pan  | \_    [PAN]improve hclk switch for nsleep... |        |      | 5:04 |
+| Pan  | \_    [PAN]MDPC engine change                |        |      | 2:25 |
+#+END: clocktable
+
+#+BEGIN: clocktable :maxlevel 4 :block thisweek+1    :scope file  :tags non-nil 
+#+CAPTION: Clock summary at [2024-09-22 Sun 17:08], for week 2024-W39.
+| Tags | Headline     | Time   |
+|------+--------------+--------|
+|      | *Total time* | *0:00* |
+#+END: clocktable
+
+* Archieve
+
+** DONE AXI introduction
+   CLOSED: [2024-05-25 Sat 14:09]
+*** DONE [AXI]protocal study                                            :AXI:
+    CLOSED: [2024-05-22 Wed 21:52] DEADLINE: <2024-05-22 Wed 22:00> SCHEDULED: <2024-05-22 Wed 20:00>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+ :LOGBOOK:
+ CLOCK: [2024-05-22 Wed 20:44]--[2024-05-22 Wed 21:51] =>  1:07
+ CLOCK: [2024-05-22 Wed 20:00]--[2024-05-22 Wed 20:27] =>  0:27
+ :END:
+*** DONE [AXI]complement axi protcol                                    :AXI:
+    CLOSED: [2024-05-23 Thu 15:11] SCHEDULED: <2024-05-23 Thu 09:00> DEADLINE: <2024-05-23 Thu 10:00>
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+ :LOGBOOK:
+ CLOCK: [2024-05-23 Thu 14:00]--[2024-05-23 Thu 15:10] =>  1:10
+ CLOCK: [2024-05-23 Thu 09:56]--[2024-05-23 Thu 11:50] =>  1:54
+ :END:
+*** DONE [AXI]axi protocal summary                                      :AXI:
+    CLOSED: [2024-05-23 Thu 21:39] SCHEDULED: <2024-05-23 Thu 19:30> DEADLINE: <2024-05-23 Thu 21:30>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+ :LOGBOOK:
+ CLOCK: [2024-05-23 Thu 19:00]--[2024-05-23 Thu 21:39] =>  2:39
+ :END:
+*** DONE [AXI]axi aip                                                   :AXI:
+    CLOSED: [2024-05-25 Sat 14:07] SCHEDULED: <2024-05-24 Fri 9:00> DEADLINE: <2024-05-24 Fri 12:00>
+    :PROPERTIES:
+    :Effort:   3:00
+    :END:
+ :LOGBOOK:
+ CLOCK: [2024-05-25 Sat 10:20]--[2024-05-25 Sat 11:53] =>  1:33
+ CLOCK: [2024-05-24 Fri 21:16]--[2024-05-24 Fri 21:47] =>  0:31
+ CLOCK: [2024-05-24 Fri 20:10]--[2024-05-24 Fri 21:07] =>  0:57
+ CLOCK: [2024-05-24 Fri 17:44]--[2024-05-24 Fri 18:00] =>  0:16
+ CLOCK: [2024-05-24 Fri 09:18]--[2024-05-24 Fri 11:46] =>  2:28
+ :END:
+*** DONE [AXI]axi vedio                                                 :AXI:
+    CLOSED: [2024-05-25 Sat 14:08] SCHEDULED: <2024-05-24 Fri 20:00> DEADLINE: <2024-05-24 Fri 22:00>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+ :LOGBOOK:
+ CLOCK: [2024-05-25 Sat 12:30]--[2024-05-25 Sat 14:08] =>  1:38
+ :END:
+
+
+** IMPROVEMENT
+*** CANCEL Postsim principle and why not need postsim                :Ponder:
+    CLOSED: [2024-08-26 Mon 17:55]
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+
+
+** DONE MVSIM/UPF introduction[100%]                                  :MVSIM:
+   CLOSED: [2024-08-26 Mon 09:30]
+*** DONE [MVSIM]upf vedio study 
+    CLOSED: [2024-05-27 Mon 13:54]
+ :LOGBOOK:
+ CLOCK: [2024-05-27 Mon 19:35]--[2024-05-27 Mon 21:25] =>  1:50
+ CLOCK: [2024-05-27 Mon 12:22]--[2024-05-27 Mon 13:54] =>  1:32
+ CLOCK: [2024-05-27 Mon 09:10]--[2024-05-27 Mon 11:54] =>  2:44
+ :END:
+ https://elearning.mediatek.com/dist/#/ctms/course-resource/root/0/category/5/course-enrollment/618251?mid=5741
+ SCHEDULED: <2024-08-26 Mon 10:30> DEADLINE: <2024-05-27 Mon 12:00>
+ :PROPERTIES:
+ :Effort:   1:00
+ :END:
+*** CANCEL [MVSIM]xpf vedio
+    CLOSED: [2024-08-26 Mon 09:30] DEADLINE: <2024-07-10 Wed 11:30>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+*** CANCEL [MVSIM]try xFormal trace function
+    CLOSED: [2024-08-26 Mon 09:30]
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+
+*** DONE [MVSIM]upf for connsys[100%]
+    CLOSED: [2024-06-26 Wed 08:47]
+    :PROPERTIES:
+    :EFFORT:   8:30
+    :END:
+ :LOGBOOK:
+ CLOCK: [2024-05-28 Tue 11:22]--[2024-05-28 Tue 11:52] =>  0:30
+ CLOCK: [2024-05-27 Mon 16:03]--[2024-05-27 Mon 17:19] =>  1:16
+ :END:
+**** DONE [MVSIM]per,pst describtion
+     CLOSED: [2024-05-30 Thu 20:38] SCHEDULED: <2024-05-30 Thu 13:00> DEADLINE: <2024-05-30 Thu 14:00>
+     :PROPERTIES:
+     :Effort:   1:00
+     :END:
+ :LOGBOOK:
+ CLOCK: [2024-05-30 Thu 20:02]--[2024-05-30 Thu 20:44] =>  0:42
+ CLOCK: [2024-05-30 Thu 14:34]--[2024-05-30 Thu 17:33] =>  2:59
+ :END:
+**** DONE [MVSIM]iso,level describtion
+     CLOSED: [2024-06-04 Tue 22:42] SCHEDULED: <2024-05-30 Thu 14:00> DEADLINE: <2024-05-30 Thu 16:00>
+     :PROPERTIES:
+     :Effort:   2:00
+     :END:
+ :LOGBOOK:
+ CLOCK: [2024-05-30 Thu 20:45]--[2024-05-30 Fri 21:45] =>  1:00
+ :END:
+**** DONE [MVSIM]retention rtl
+     CLOSED: [2024-06-05 Wed 11:36] SCHEDULED: <2024-06-05 Wed 09:00> DEADLINE: <2024-06-05 Wed 11:00>
+     :PROPERTIES:
+     :Effort:   1:00
+     :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-05 Wed 09:31]--[2024-06-05 Wed 11:16] =>  1:45
+ :END:
+**** DONE [MVSIM]connsys upf describtion[100%]
+     CLOSED: [2024-06-05 Wed 23:49] SCHEDULED: <2024-06-05 Wed 16:00> DEADLINE: <2024-06-05 Wed 18:00>
+     :PROPERTIES:
+     :EFFORT:   2:30
+     :END:
+***** DONE [MVSIM]conn besra architec
+      CLOSED: [2024-06-05 Wed 14:59] DEADLINE: <2024-06-05 Wed 15:30>
+      :PROPERTIES:
+      :Effort:   0:30
+      :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-05 Wed 14:47]--[2024-06-05 Wed 14:59] =>  0:12
+ :END:
+***** DONE [MVSIM]conn besra pd,net,psw,pst
+      CLOSED: [2024-06-05 Wed 15:54] DEADLINE: <2024-06-05 Wed 16:30>
+      :PROPERTIES:
+      :Effort:   1:00
+      :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-05 Wed 14:59]--[2024-06-05 Wed 15:54] =>  0:55
+ :END:
+***** DONE [MVSIM]conn besra iso,ls
+      CLOSED: [2024-06-05 Wed 16:39] DEADLINE: <2024-06-05 Wed 17:00>
+      :PROPERTIES:
+      :Effort:   0:30
+      :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-05 Wed 16:06]--[2024-06-05 Wed 16:39] =>  0:33
+ :END:
+***** DONE [MVSIM]conn besra mem
+      CLOSED: [2024-06-05 Wed 23:49] DEADLINE: <2024-06-05 Wed 17:30>
+      :PROPERTIES:
+      :Effort:   0:30
+      :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-05 Wed 16:50]--[2024-06-05 Wed 17:23] =>  0:33
+ :END:
+
+**** DONE [MVSIM]upf introducation vedio
+     CLOSED: [2024-06-08 Sat 10:19] DEADLINE: <2024-06-09 Sun 18:00>
+     :PROPERTIES:
+     :Effort:   2:00
+     :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-07 Sat 19:30]--[2024-06-07 Sat 22:30] =>  3:00
+ :END:
+
+*** CANCEL [PTPX]ptpx training[100%]                                   :PTPX:
+    CLOSED: [2024-08-26 Mon 09:30]
+**** DONE [PTPX]study vedio                                            :PTPX:
+     CLOSED: [2024-06-08 Sat 15:54] SCHEDULED: <2024-06-05 Wed 20:00> DEADLINE: <2024-06-05 Wed 22:00>
+     :PROPERTIES:
+     :Effort:   2:00
+     :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-07 Fri 14:33]--[2024-06-07 Fri 17:43] =>  3:10
+ CLOCK: [2024-06-06 Thu 16:59]--[2024-06-06 Thu 17:40] =>  0:41
+ :END:
+**** CANCEL [PTPX]1.try run PA example                                 :PTPX:
+     CLOSED: [2024-08-26 Mon 17:54]
+     :PROPERTIES:
+     :Effort:   2:00
+     :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-10 Mon 18:59]--[2024-06-10 Mon 19:54] =>  0:55
+ CLOCK: [2024-06-10 Mon 13:14]--[2024-06-10 Mon 15:39] =>  2:25
+ CLOCK: [2024-06-10 Mon 11:07]--[2024-06-10 Mon 12:30] =>  1:23
+ CLOCK: [2024-06-08 Sat 15:56]--[2024-06-08 Sat 18:49] =>  2:53
+ :END:
+**** CANCEL [PTPX]2.study PA training Introd                           :PTPX:
+     CLOSED: [2024-08-26 Mon 17:54]
+     :PROPERTIES:
+     :Effort:   1:00
+     :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-08 Sat 20:00]--[2024-06-08 Sat 22:00] =>  2:00
+ :END:
+**** CANCEL [PTPX]3.run PX example                                     :PTPX:
+     CLOSED: [2024-08-26 Mon 17:54]
+     :PROPERTIES:
+     :Effort:   1:00
+     :END:
+**** CANCEL [PTPX]4.study PX training Introd                           :PTPX:
+     CLOSED: [2024-08-26 Mon 17:55]
+     :PROPERTIES:
+     :Effort:   1:00
+     :END:
+**** CANCEL [PTPX]5.ptpx introduc vedio                                :PTPX:
+     CLOSED: [2024-08-26 Mon 17:55]
+     :PROPERTIES:
+     :Effort:   2:00
+     :END:
+
+
+
+** CANCEL Coverage
+   CLOSED: [2024-08-26 Mon 09:31]
+*** DONE read paper about cov                                            :SV:
+    CLOSED: [2024-06-06 Thu 09:34] SCHEDULED: <2024-06-05 Wed 19:00> DEADLINE: <2024-06-05 Wed 20:00>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-05 Wed 19:26]--[2024-06-05 Sun 21:45] =>  2:19
+ CLOCK: [2024-05-25 Sat 17:10]--[2024-05-25 Sun 17:45] =>  0:35
+ :END:
+*** DONE cov test                                                        :SV:
+    CLOSED: [2024-06-26 Wed 08:49] DEADLINE: <2024-06-12 Thu 22:00>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+
+
+** CANCEL UVM
+   CLOSED: [2024-08-26 Mon 09:31]
+*** CANCEL start seq                                                    :UVM:
+    CLOSED: [2024-08-26 Mon 09:31]
+    :PROPERTIES:
+    :EFFORT:   2:00
+    :END:
+**** CANCEL ral mode                                                    :UVM:
+     CLOSED: [2024-08-26 Mon 09:31]
+     :PROPERTIES:
+     :Effort:   2:00
+     :END:
+  :LOGBOOK:
+  CLOCK: [2024-06-12 Wed 16:15]--[2024-06-12 Wed 17:45] =>  1:30
+  :END:
+
+
+
+** TODO_LIST
+*** DONE handshake ready mechnism                                       :AXI:
+    CLOSED: [2024-08-26 Mon 09:31]
+*** DONE wf_rgu                                                          :LP:
+    CLOSED: [2024-06-14 Fri 14:02] DEADLINE: <2024-06-14 Fri 12:00>
+ :LOGBOOK:
+ CLOCK: [2024-06-14 Fri 09:39]--[2024-06-14 Fri 11:59] =>  2:20
+ :END:
+*** DONE wf_cfg                                                          :LP:
+    CLOSED: [2024-06-14 Fri 22:19] DEADLINE: <2024-06-14 Fri 17:00>
+ :LOGBOOK:
+ CLOCK: [2024-06-14 Fri 19:32]--[2024-06-14 Fri 21:24] =>  1:52
+ CLOCK: [2024-06-14 Fri 14:02]--[2024-06-14 Fri 15:03] =>  1:01
+ :END:
+*** DONE conn_infra_cfg                                                  :LP:
+    CLOSED: [2024-06-14 Fri 22:20] DEADLINE: <2024-06-14 Fri 22:00>
+*** DONE bus slpprot                                                     :LP:
+    CLOSED: [2024-08-26 Mon 09:31]
+ :LOGBOOK:
+ CLOCK: [2024-06-15 Sat 10:29]--[2024-06-15 Sat 12:01] =>  1:32
+ :END:
+
+*** CANCEL InfraTba one master to one slave env build plan         :InfraTba:
+    CLOSED: [2024-08-26 Mon 10:01] DEADLINE: <2024-06-30 Sun>
+    :PROPERTIES:
+    :Effort:   7:00
+    :END:
+ :LOGBOOK:
+ CLOCK: [2024-06-27 Thu 15:34]--[2024-06-27 Thu 18:27] =>  2:53
+ :END:
+
+
+
+
+
+ 
+* PROJECTS
+** DONE Jayer Proj[100%]                                              :Jayer:
+   CLOSED: [2024-09-08 Sun 19:41]
+*** DONE suspend basic case dumpwave                                  :Jayer:
+CLOSED: [2024-06-04 Tue 23:02] SCHEDULED: <2024-05-31 Fri 08:31> DEADLINE: <2024-05-31 Fri 09:30>
+:PROPERTIES:
+:Effort:   2:00
+:END:   
+:LOGBOOK:
+CLOCK: [2024-05-29 Wed 09:37]--[2024-05-29 Wed 10:02] =>  0:25
+:END:
+*** DONE suspend basic case PASS                                      :Jayer:
+CLOSED: [2024-06-13 Thu 10:26] DEADLINE: <2024-06-15 Sat 18:00>
+:PROPERTIES:
+:Effort:   2:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-05 Wed 14:00]--[2024-06-05 Wed 14:19] =>  0:19
+:END:
+*** DONE wdt xprop case review                                        :Jayer:
+CLOSED: [2024-06-12 Wed 13:41] DEADLINE: <2024-06-12 Wed 18:00>
+:LOGBOOK:
+CLOCK: [2024-06-26 Wed 09:06]--[2024-06-26 Wed 09:30] =>  0:24
+CLOCK: [2024-06-07 Fri 13:34]--[2024-06-07 Fri 14:33] =>  0:59
+CLOCK: [2024-06-06 Thu 09:59]--[2024-06-06 Thu 10:04] =>  0:05
+:END:
+
+** DONE Besra Proj[100%]                                              :Besra:
+   CLOSED: [2024-09-08 Sun 19:41]
+*** DONE MVSIM report                                                 :Besra:
+CLOSED: [2024-05-23 Thu 17:36] SCHEDULED: <2024-05-23 Thu 14:25> DEADLINE: <2024-05-23 Thu 15:00>
+:PROPERTIES:
+:Effort:   0:30
+:END:
+:LOGBOOK:
+CLOCK: [2024-05-23 Thu 15:35]--[2024-05-23 Thu 17:30] =>  1:55
+:END:
+*** DONE TBA bbt/wf/zb part 1st debug                                 :Besra:
+CLOSED: [2024-05-24 Fri 17:02] SCHEDULED: <2024-05-24 Fri 13:00> DEADLINE: <2024-05-24 Fri 16:00>
+:PROPERTIES:
+:Effort:   3:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-05-24 Fri 13:17]--[2024-05-24 Fri 17:02] =>  3:45
+:END:
+*** DONE TBA bt/wf/zb rand basic debug                                :Besra:
+CLOSED: [2024-06-04 Tue 23:07] SCHEDULED: <2024-05-31 Fri 13:00> DEADLINE: <2024-05-31 Fri 16:00>
+:PROPERTIES:
+:Effort:   3:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-05-29 Wed 10:02]--[2024-05-29 Wed 10:48] =>  0:46
+CLOCK: [2024-05-27 Mon 13:54]--[2024-05-27 Mon 14:10] =>  0:16
+CLOCK: [2024-05-26 Sun 12:59]--[2024-05-26 Sun 15:34] =>  2:35
+:END:
+*** DONE TBA wf part change Master/Memory[100%]                       :Besra:
+CLOSED: [2024-06-08 Sat 11:30] DEADLINE: <2024-06-09 Sun 18:00>
+:PROPERTIES:
+:Effort:   3:00
+:END:
+**** DONE TBA wf add memory inter/map/region                          :Besra:
+CLOSED: [2024-06-06 Thu 14:09] DEADLINE: <2024-06-06 Thu 11:30>
+:PROPERTIES:
+:Effort:   0:30
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-06 Thu 13:09]--[2024-06-06 Thu 14:09] =>  1:00
+CLOCK: [2024-06-06 Thu 11:06]--[2024-06-06 Thu 11:45] =>  0:39
+:END:
+**** DONE TBA wf part memory wrap                                     :Besra:
+CLOSED: [2024-06-06 Thu 14:09] DEADLINE: <2024-06-06 Thu 13:30>
+:PROPERTIES:
+:Effort:   0:30
+:END:
+**** DONE TBA wf part n10 compile/basic pass                          :Besra:
+CLOSED: [2024-06-08 Sat 11:30] DEADLINE: <2024-06-09 Thu 18:00>
+:PROPERTIES:
+:Effort:   2:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-08 Sat 10:21]--[2024-06-08 Sat 10:32] =>  0:11
+:END:
+*** DONE TBA bt part change Master/Memory                             :Besra:
+CLOSED: [2024-06-12 Wed 12:27] DEADLINE: <2024-06-12 Wed 18:00>
+:PROPERTIES:
+:Effort:   2:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-12 Wed 11:09]--[2024-06-12 Wed 11:30] =>  0:21
+CLOCK: [2024-06-12 Wed 10:37]--[2024-06-12 Wed 10:44] =>  0:07
+CLOCK: [2024-06-11 Tue 13:34]--[2024-06-11 Tue 14:26] =>  0:52
+:END:
+*** DONE TBA zb part change Master/Memory                             :Besra:
+CLOSED: [2024-06-12 Wed 12:27] DEADLINE: <2024-06-12 Wed 18:00>
+:PROPERTIES:
+:Effort:   2:00
+:END:
+*** DONE TBA add config seq                                           :Besra:
+CLOSED: [2024-06-26 Wed 08:55] DEADLINE: <2024-06-14 Fri 12:00>
+:PROPERTIES:
+:Effort:   3:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-11 Tue 15:36]--[2024-06-11 Wed 18:15] =>  2:39
+CLOCK: [2024-06-11 Tue 14:43]--[2024-06-11 Tue 15:16] =>  0:33
+:END:
+*** DONE Besra MVSIM report                                           :Besra:
+CLOSED: [2024-06-06 Thu 09:58] DEADLINE: <2024-06-07 Fri 15:00>
+:PROPERTIES:
+:Effort:   2:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-06 Thu 09:34]--[2024-06-06 Thu 09:58] =>  0:24
+:END:
+*** CANCEL Besra infratba rand case to 100%                           :Besra:
+CLOSED: [2024-08-26 Mon 09:31] DEADLINE: <2024-06-30 Sun 18:00>
+:PROPERTIES:
+:Effort:   4:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-27 Thu 09:51]--[2024-06-27 Thu 11:10] =>  1:19
+CLOCK: [2024-06-26 Wed 15:39]--[2024-06-26 Wed 15:59] =>  0:20
+CLOCK: [2024-06-26 Wed 09:30]--[2024-06-26 Wed 10:03] =>  0:33
+:END:
+*** CANCEL Besra infratba dcm,clkmux,wayen case 100%                  :Besra:
+CLOSED: [2024-08-26 Mon 09:31] DEADLINE: <2024-06-30 Sun 18:00>
+:PROPERTIES:
+:Effort:   6:00
+:END:
+*** CANCEL Besra infratba dcm,clkmux,wayen cov                        :Besra:
+CLOSED: [2024-08-26 Mon 09:31] DEADLINE: <2024-06-30 Sun 18:00>
+:PROPERTIES:
+:Effort:   4:00
+:END:
+*** CANCEL Besra infratba MVSIM case to 100%                          :Besra:
+CLOSED: [2024-08-26 Mon 09:31] DEADLINE: <2024-06-30 Sun 18:00>
+:PROPERTIES:
+:Effort:   4:00
+:END:
+*** CANCEL Besra infratba MVSIM cov to 100%                           :Besra:
+CLOSED: [2024-08-26 Mon 09:31] DEADLINE: <2024-07-07 Sun 18:00>
+:PROPERTIES:
+:Effort:   4:00
+:END:
+
+** DONE Connac3_9 Proj[100%]                                      :Connac3_9:
+CLOSED: [2024-08-26 Mon 09:56]
+*** CANCEL Connac3_9 MVSIM report                                 :Connac3_9:
+CLOSED: [2024-06-12 Wed 14:38] DEADLINE: <2024-06-12 Wed 11:00>
+:PROPERTIES:
+:Effort:   2:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-12 Wed 09:44]--[2024-06-12 Wed 09:56] =>  0:12
+:END:
+*** CANCEL Connac3_9 add checker                                  :Connac3_9:
+CLOSED: [2024-08-26 Mon 09:31] DEADLINE: <2024-06-30 Sun 11:00>
+:PROPERTIES:
+:Effort:   6:00
+:END:
+
+** T930 Proj[66%]                                                      :T930:
+*** DONE infraTBA basci one master to one slave                        :T930:
+    CLOSED: [2024-08-27 Tue 14:47] DEADLINE: <2024-08-26 Mon 11:00> SCHEDULED: <2024-08-26 Mon 10:00>
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-08-27 Tue 14:09]--[2024-08-27 Tue 14:47] =>  0:38
+    CLOCK: [2024-08-27 Tue 13:39]--[2024-08-27 Tue 14:02] =>  0:23
+    CLOCK: [2024-08-27 Tue 11:04]--[2024-08-27 Tue 11:17] =>  0:13
+    CLOCK: [2024-08-27 Tue 09:21]--[2024-08-27 Tue 10:15] =>  0:54
+     CLOCK: [2024-08-26 Mon 17:57]--[2024-08-26 Mon 18:00] =>  0:03
+     CLOCK: [2024-08-26 Mon 11:07]--[2024-08-26 Mon 11:21] =>  0:14
+     CLOCK: [2024-08-26 Mon 09:42]--[2024-08-26 Mon 09:55] =>  0:13
+    :END:
+*** DONE infraTBA basci all master to all slave 80%                    :T930:
+    CLOSED: [2024-09-13 Fri 21:58] DEADLINE: <2024-09-13 Fri 11:00> SCHEDULED: <2024-08-27 Tue 17:00>
+    :PROPERTIES:
+    :Effort:   3:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-13 Fri 14:42]--[2024-09-13 Fri 17:25] =>  2:43
+    CLOCK: [2024-09-13 Fri 10:29]--[2024-09-13 Fri 10:46] =>  0:17
+    CLOCK: [2024-09-11 Wed 13:36]--[2024-09-11 Wed 14:30] =>  0:54
+    CLOCK: [2024-09-10 Tue 21:55]--[2024-09-10 Tue 22:06] =>  0:11
+    CLOCK: [2024-09-10 Tue 19:50]--[2024-09-10 Tue 20:14] =>  0:24
+    CLOCK: [2024-09-10 Tue 17:04]--[2024-09-10 Tue 17:20] =>  0:16
+    CLOCK: [2024-09-05 Thu 13:30]--[2024-09-05 Thu 14:00] =>  0:30
+    CLOCK: [2024-09-05 Thu 10:44]--[2024-09-05 Thu 11:30] =>  0:46
+    CLOCK: [2024-09-04 Wed 17:10]--[2024-09-04 Wed 18:00] =>  0:50
+    CLOCK: [2024-09-04 Wed 16:08]--[2024-09-04 Wed 17:05] =>  0:57
+    CLOCK: [2024-09-04 Wed 14:16]--[2024-09-04 Wed 14:30] =>  0:14
+    CLOCK: [2024-09-04 Wed 13:11]--[2024-09-04 Wed 14:00] =>  0:49
+    CLOCK: [2024-09-04 Wed 11:03]--[2024-09-04 Wed 11:45] =>  0:42
+    CLOCK: [2024-08-29 Thu 13:27]--[2024-08-29 Thu 13:59] =>  0:32
+    CLOCK: [2024-08-29 Thu 10:45]--[2024-08-29 Thu 11:29] =>  0:44
+    CLOCK: [2024-08-28 Wed 13:24]--[2024-08-28 Wed 13:56] =>  0:32
+    CLOCK: [2024-08-28 Wed 09:37]--[2024-08-28 Wed 11:54] =>  2:17
+    :END:
+*** DONE WDR check report to 80%                                       :T930:
+    CLOSED: [2024-09-11 Wed 21:17] SCHEDULED: <2024-09-05 Thu 16:00> DEADLINE: <2024-09-09 Mon 17:00>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-11 Wed 09:57]--[2024-09-11 Wed 10:04] =>  0:07
+    CLOCK: [2024-09-10 Tue 14:23]--[2024-09-10 Tue 14:29] =>  0:06
+    CLOCK: [2024-09-10 Tue 09:07]--[2024-09-10 Tue 09:13] =>  0:06
+    CLOCK: [2024-09-09 Mon 17:39]--[2024-09-09 Mon 17:47] =>  0:08
+    CLOCK: [2024-09-09 Mon 13:46]--[2024-09-09 Mon 14:43] =>  0:57
+    CLOCK: [2024-09-09 Mon 10:20]--[2024-09-09 Mon 10:26] =>  0:06
+    CLOCK: [2024-09-09 Mon 09:20]--[2024-09-09 Mon 09:45] =>  0:25
+    :END:
+*** DONE [Artem]MVSIM flow to 100%                                     :T930:
+    CLOSED: [2024-09-24 Tue 14:42] SCHEDULED: <2024-09-10 Tue 16:00> DEADLINE: <2024-09-25 Wed 17:00>
+    :PROPERTIES:
+    :Effort:   0:30
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-24 Tue 14:18]--[2024-09-24 Tue 14:42] =>  0:24
+    CLOCK: [2024-09-23 Mon 16:10]--[2024-09-23 Mon 16:25] =>  0:15
+    CLOCK: [2024-09-19 Thu 09:15]--[2024-09-19 Thu 10:31] =>  1:16
+    :END:
+*** TODO [T930]infraTBA basci all master to all slave 100%             :T930:
+    DEADLINE: <2024-09-25 Wed 18:00> SCHEDULED: <2024-09-17 Tue 09:00>
+    :PROPERTIES:
+    :Effort:   5:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-20 Fri 09:46]--[2024-09-20 Fri 10:33] =>  0:47
+    CLOCK: [2024-09-20 Fri 09:40]--[2024-09-20 Fri 09:46] =>  0:06
+    CLOCK: [2024-09-19 Thu 13:34]--[2024-09-19 Thu 13:36] =>  0:02
+    CLOCK: [2024-09-19 Thu 11:06]--[2024-09-19 Thu 11:18] =>  0:12
+    CLOCK: [2024-09-18 Wed 11:18]--[2024-09-18 Wed 11:43] =>  0:25
+    CLOCK: [2024-09-17 Tue 10:50]--[2024-09-17 Tue 13:11] =>  2:21
+    :END:
+*** TODO [T930]infraTBA high feature passrate 100%                     :T930:
+    DEADLINE: <2024-10-11 Fri 18:00> SCHEDULED: <2024-09-25 Wed 09:00>
+    :PROPERTIES:
+    :Effort:   16:00
+    :END:
+    
+
+** Conn5 Proj[76%]                                                    :Conn5:
+*** DONE Dsleep case Pass                                             :Conn5:
+    CLOSED: [2024-08-28 Wed 16:12] DEADLINE: <2024-08-28 Wed 17:00> SCHEDULED: <2024-08-27 Tue 17:00>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-08-28 Wed 16:02]--[2024-08-28 Wed 16:12] =>  0:10
+    CLOCK: [2024-08-27 Tue 17:28]--[2024-08-27 Tue 17:44] =>  0:16
+    :END:
+*** DONE Rand sleep without wf PASS                                   :Conn5:
+    CLOSED: [2024-09-05 Thu 16:41] DEADLINE: <2024-09-04 Tue 17:00> SCHEDULED: <2024-08-28 Wed 09:00>
+    :PROPERTIES:
+    :Effort:   3:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-05 Thu 14:38]--[2024-09-05 Thu 16:41] =>  2:03
+    CLOCK: [2024-09-05 Thu 09:18]--[2024-09-05 Thu 10:26] =>  1:08
+    CLOCK: [2024-09-04 Wed 15:15]--[2024-09-04 Wed 16:05] =>  0:50
+    CLOCK: [2024-09-04 Wed 10:20]--[2024-09-04 Wed 11:02] =>  0:42
+    CLOCK: [2024-08-29 Thu 10:34]--[2024-08-29 Thu 10:45] =>  0:11
+    CLOCK: [2024-08-28 Wed 16:16]--[2024-08-28 Wed 18:13] =>  1:57
+    CLOCK: [2024-08-28 Wed 13:56]--[2024-08-28 Wed 15:00] =>  1:04
+    :END:
+*** DONE Wf rand sleep case with conn_infra PASS                      :Conn5:
+    CLOSED: [2024-09-12 Thu 16:26] DEADLINE: <2024-09-09 Mon 17:00> SCHEDULED: <2024-09-04 Wed 09:00>
+    :PROPERTIES:
+    :Effort:   3:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-12 Thu 14:50]--[2024-09-12 Thu 16:26] =>  1:36
+    CLOCK: [2024-09-12 Thu 10:35]--[2024-09-12 Thu 10:52] =>  0:17
+    CLOCK: [2024-09-12 Thu 10:00]--[2024-09-12 Thu 10:35] =>  0:35
+    CLOCK: [2024-09-10 Tue 09:15]--[2024-09-10 Tue 10:14] =>  0:59
+    CLOCK: [2024-09-09 Mon 14:52]--[2024-09-09 Mon 15:01] =>  0:09
+    CLOCK: [2024-09-09 Mon 13:29]--[2024-09-09 Mon 13:46] =>  0:17
+    CLOCK: [2024-09-06 Fri 14:00]--[2024-09-06 Fri 16:30] =>  2:30
+    CLOCK: [2024-09-06 Fri 09:46]--[2024-09-06 Fri 11:30] =>  1:44
+    :END:
+*** DONE Wf rand corner case wavefrom check                           :Conn5:
+    CLOSED: [2024-09-10 Tue 12:20] SCHEDULED: <2024-09-09 Mon 09:00> DEADLINE: <2024-09-09 Mon 11:30>
+    :PROPERTIES:
+    :Effort:   0:30
+    :END:
+*** DONE basic case with bypass cr PASS                               :Conn5:
+    CLOSED: [2024-09-09 Mon 14:51] SCHEDULED: <2024-09-09 Mon 09:30> DEADLINE: <2024-09-09 Mon 11:30>
+    :PROPERTIES:
+    :Effort:   0:30
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-09 Mon 13:16]--[2024-09-09 Mon 13:28] =>  0:12
+    CLOCK: [2024-09-09 Mon 08:57]--[2024-09-09 Mon 09:20] =>  0:23
+    :END:
+*** DONE [conn5]conn_infra slp, wf wakeup case pass                   :Conn5:
+    CLOSED: [2024-09-18 Wed 21:43] SCHEDULED: <2024-09-10 Tue 09:00> DEADLINE: <2024-09-17 Tue 17:30>
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-18 Wed 10:15]--[2024-09-18 Wed 10:48] =>  0:33
+    CLOCK: [2024-09-18 Wed 09:00]--[2024-09-18 Wed 09:09] =>  0:09
+    CLOCK: [2024-09-17 Tue 19:00]--[2024-09-17 Tue 19:42] =>  0:42
+    CLOCK: [2024-09-12 Thu 16:54]--[2024-09-12 Thu 17:31] =>  0:37
+    CLOCK: [2024-09-11 Wed 10:38]--[2024-09-11 Wed 11:46] =>  1:08
+    CLOCK: [2024-09-11 Wed 10:22]--[2024-09-11 Wed 10:36] =>  0:14
+    CLOCK: [2024-09-10 Tue 12:31]--[2024-09-10 Tue 14:23] =>  1:52
+    CLOCK: [2024-09-10 Tue 10:21]--[2024-09-10 Tue 11:11] =>  0:50
+    CLOCK: [2024-09-10 Tue 10:15]--[2024-09-10 Tue 10:15] =>  0:00
+    :END:
+*** DONE [conn5]conn_infra wakeup, wf sleep case pass                 :Conn5:
+    CLOSED: [2024-09-18 Wed 21:43] SCHEDULED: <2024-09-10 Tue 10:00> DEADLINE: <2024-09-17 Tue 17:30>
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+*** CANCEL wf slp, conn_infra wakeup case pass                        :Conn5:
+    CLOSED: [2024-09-16 Mon 10:41] SCHEDULED: <2024-09-11 Wed 09:00> DEADLINE: <2024-09-11 Wed 11:30>
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+*** CANCEL wf wakeup, conn_infra sleep case pass                      :Conn5:
+    CLOSED: [2024-09-16 Mon 10:41] SCHEDULED: <2024-09-11 Wed 10:00> DEADLINE: <2024-09-11 Wed 11:30>
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+*** TODO [conn5]conn_ifnra ap2conn case pass                          :Conn5:
+    SCHEDULED: <2024-09-23 Thu 09:00> DEADLINE: <2024-09-23 Thu 11:30>
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-23 Mon 09:03]--[2024-09-23 Mon 09:58] =>  0:55
+    :END:
+*** TODO [conn5]conn_infra counter case pass                          :Conn5:
+    SCHEDULED: <2024-09-24 Thu 10:00> DEADLINE: <2024-09-24 Thu 14:30>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+*** TODO [conn5]conn_infra dbg,prevett case pass                      :Conn5:
+    SCHEDULED: <2024-09-25 Wed 09:00> DEADLINE: <2024-09-25 Wed 11:30>
+    :PROPERTIES:
+    :Effort:   2:00
+    :END:
+*** DONE [conn5]conn_infra radio_off case pass                        :Conn5:
+    CLOSED: [2024-09-20 Fri 14:52] SCHEDULED: <2024-09-26 Thu 09:00> DEADLINE: <2024-09-26 Thu 17:30>
+    :PROPERTIES:
+    :Effort:   4:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2024-09-20 Fri 09:15]--[2024-09-20 Fri 09:39] =>  0:24
+    CLOCK: [2024-09-19 Thu 13:16]--[2024-09-19 Thu 13:30] =>  0:14
+    CLOCK: [2024-09-19 Thu 10:31]--[2024-09-19 Thu 11:06] =>  0:35
+    CLOCK: [2024-09-18 Wed 13:40]--[2024-09-18 Wed 15:49] =>  2:09
+    :END:
+
+
+
+
+    
+** Pan Proj[42%]                                                        :Pan:
+*** TODO [PAN]HWITS change for Pan prview                               :Pan:
+    SCHEDULED: <2024-09-28 Sat 14:00> DEADLINE: <2024-09-29 Sun 17:30>
+   :PROPERTIES:
+   :Effort:   16:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-09-19 Thu 15:50]--[2024-09-19 Thu 17:47] =>  1:57
+   CLOCK: [2024-09-19 Thu 14:04]--[2024-09-19 Thu 14:46] =>  0:42
+   :END:
+*** DONE [PAN] finish hclk genrator. How to dynamic siwtch hclk when Nsleep?finish scenario :Pan:
+    CLOSED: [2024-09-25 Wed 16:52] SCHEDULED: <2024-09-25 Wed 13:30> DEADLINE: <2024-09-25 Wed 15:30>
+   :PROPERTIES:
+   :Effort:   2:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-09-25 Wed 14:41]--[2024-09-25 Wed 16:15] =>  1:34
+   CLOCK: [2024-09-25 Wed 13:25]--[2024-09-25 Wed 14:41] =>  1:16
+   :END:
+*** TODO [PAN] finish preview outline                                   :Pan:
+    SCHEDULED: <2024-09-25 Wed 15:30> DEADLINE: <2024-09-25 Wed 16:30>
+   :PROPERTIES:
+   :Effort:   1:00
+   :END:
+*** DONE [PAN]improve hclk switch for nsleep change preview             :Pan:
+   CLOSED: [2024-10-09 Wed 15:17] SCHEDULED: <2024-09-24 Tue 14:00> DEADLINE: <2024-09-25 Wed 17:30>
+   :PROPERTIES:
+   :Effort:   8:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-10-01 Tue 19:25]--[2024-10-01 Tue 22:24] =>  2:59
+   CLOCK: [2024-10-01 Tue 16:08]--[2024-10-01 Tue 18:13] =>  2:05
+   CLOCK: [2024-09-25 Wed 10:00]--[2024-09-25 Wed 11:48] =>  1:48
+   CLOCK: [2024-09-24 Tue 17:37]--[2024-09-24 Wed 18:00] =>  0:23
+   CLOCK: [2024-09-24 Tue 15:45]--[2024-09-24 Tue 17:17] =>  1:32
+   :END:
+*** DONE [PAN]bk/rs engine change                                       :Pan:
+   CLOSED: [2024-10-09 Wed 15:17] SCHEDULED: <2024-09-26 Thu 09:00> DEADLINE: <2024-09-26 Thu 17:30>
+   :PROPERTIES:
+   :Effort:   8:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-10-09 Wed 09:45]--[2024-10-09 Wed 10:53] =>  1:08
+   CLOCK: [2024-10-08 Tue 13:38]--[2024-10-08 Tue 17:47] =>  4:09
+   CLOCK: [2024-10-03 Thu 16:14]--[2024-10-03 Thu 17:00] =>  0:46
+   CLOCK: [2024-10-02 Wed 20:14]--[2024-10-02 Wed 22:18] =>  2:04
+   CLOCK: [2024-10-02 Wed 14:44]--[2024-10-02 Wed 15:17] =>  0:33
+   CLOCK: [2024-10-02 Wed 13:35]--[2024-10-02 Wed 14:02] =>  0:27
+   CLOCK: [2024-09-26 Thu 15:54]--[2024-09-26 Thu 17:32] =>  1:38
+   CLOCK: [2024-09-26 Thu 14:51]--[2024-09-26 Thu 15:50] =>  0:59
+   :END:
+*** TODO [PAN]MDPC engine change                                        :Pan:
+   SCHEDULED: <2024-09-27 Fri 09:00> DEADLINE: <2024-09-27 Fri 17:30>
+   :PROPERTIES:
+   :Effort:   8:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-10-09 Wed 15:18]--[2024-10-09 Thu 16:59] =>  1:41
+   CLOCK: [2024-10-01 Tue 14:10]--[2024-10-01 Tue 14:37] =>  0:27
+   CLOCK: [2024-10-01 Tue 11:02]--[2024-10-01 Tue 13:00] =>  1:58
+   :END:
+*** TODO [PAN]vcore mem control bit change done                         :Pan:
+   SCHEDULED: <2024-10-11 Fri 14:00> DEADLINE: <2024-10-11 Fri 17:30>
+   :PROPERTIES:
+   :Effort:   8:00
+   :END:
+
+
+
+* DE Flow study[28%]
+** DONE Design flow & coding style, create one slide                :DE_Flow:
+   CLOSED: [2024-09-09 Mon 13:16] SCHEDULED: <2024-09-09 Mon 14:00> DEADLINE: <2024-09-09 Mon 17:00>
+   :PROPERTIES:
+   :Effort:   1:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-09-09 Mon 10:33]--[2024-09-09 Mon 11:12] =>  0:39
+   CLOCK: [2024-09-09 Mon 09:52]--[2024-09-09 Mon 10:18] =>  0:26
+   :END:
+** DONE SG lint, run test                                           :DE_Flow:
+   CLOSED: [2024-09-11 Wed 20:46] SCHEDULED: <2024-09-09 Mon 15:00> DEADLINE: <2024-09-09 Mon 17:30>
+   :PROPERTIES:
+   :Effort:   6:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-09-11 Wed 10:04]--[2024-09-11 Wed 10:22] =>  0:18
+   CLOCK: [2024-09-10 Tue 20:14]--[2024-09-10 Tue 21:54] =>  1:40
+   CLOCK: [2024-09-10 Tue 17:20]--[2024-09-10 Tue 18:00] =>  0:40
+   CLOCK: [2024-09-10 Tue 16:25]--[2024-09-10 Tue 17:04] =>  0:39
+   CLOCK: [2024-09-10 Tue 15:07]--[2024-09-10 Tue 15:35] =>  0:28
+   CLOCK: [2024-09-09 Mon 15:39]--[2024-09-09 Mon 17:26] =>  1:47
+   CLOCK: [2024-09-09 Mon 15:03]--[2024-09-09 Mon 15:29] =>  0:26
+   :END:
+** DONE [DE]RCC for conn5                                           :DE_Flow:
+   CLOSED: [2024-09-24 Tue 15:25] SCHEDULED: <2024-09-23 Mon 14:00> DEADLINE: <2024-09-23 Mon 17:30>
+   :PROPERTIES:
+   :Effort:   4:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-09-24 Tue 09:02]--[2024-09-24 Tue 13:02] =>  4:00
+   CLOCK: [2024-09-23 Mon 20:03]--[2024-09-23 Mon 21:59] =>  1:56
+   CLOCK: [2024-09-23 Mon 16:45]--[2024-09-23 Mon 17:14] =>  0:29
+   CLOCK: [2024-09-23 Mon 13:48]--[2024-09-23 Mon 14:29] =>  0:41
+   CLOCK: [2024-09-18 Wed 19:00]--[2024-09-18 Wed 21:00] =>  2:00
+   CLOCK: [2024-09-18 Wed 16:00]--[2024-09-18 Wed 18:00] =>  2:00
+   :END:
+** TODO [DE]RCC pwr/define/parameter study                          :DE_Flow:
+   SCHEDULED: <2024-10-06 Sun 14:00> DEADLINE: <2024-10-06 Sun 17:30>
+   :PROPERTIES:
+   :Effort:   8:00
+   :END:
+** TODO [DE]Lint for conn5                                          :DE_Flow:
+   SCHEDULED: <2024-10-07 Tue 09:00> DEADLINE: <2024-10-07 Tue 17:30>
+   :PROPERTIES:
+   :Effort:   8:00
+   :END:
+** TODO [DE]Mem and cdc flow for conn5                              :DE_Flow:
+   :PROPERTIES:
+   :Effort:   6:00
+   :END:
+** TODO [DE]SDC_CCD for conn5                                       :DE_Flow:
+   :PROPERTIES:
+   :Effort:   6:00
+   :END:
+** TODO [DE]CTS & STA for conn5                                     :DE_Flow:
+   :PROPERTIES:
+   :Effort:   6:00
+   :END:
+** TODO [DE]PA for conn5                                            :DE_Flow:
+   :PROPERTIES:
+   :Effort:   6:00
+   :END:
+** TODO [DE]UPF for conn5                                           :DE_Flow:
+   :PROPERTIES:
+   :Effort:   6:00
+   :END:
+** TODO [DE]PTPX                                                    :DE_Flow:
+   DEADLINE: <2024-09-30 Mon 18:00> SCHEDULED: <2024-09-30 Mon 14:00>
+   :PROPERTIES:
+   :Effort:   8:00
+   :END:
+** TODO [DE]bus performance                                         :DE_Flow:
+   DEADLINE: <2024-10-26 Sat 18:00> SCHEDULED: <2024-10-24 Thu 14:00>
+   :PROPERTIES:
+   :Effort:   8:00
+   :END:
+** CANCEL [DE]icap study                                            :DE_Flow:
+   CLOSED: [2024-09-19 Thu 13:39] SCHEDULED: <2024-10-09 Wed 14:00> DEADLINE: <2024-10-11 Fri 18:00>
+   :PROPERTIES:
+   :Effort:   12:00
+   :END:
+** SOMEDAY [DE]DFT for conn5                                        :DE_Flow:
+   :PROPERTIES:
+   :Effort:   6:00
+   :END:
+
+
+   
+   
+* YSYX[52%]                                                            :YSYX:
+** DONE figure out c-code transfer assember language, Start and Main step :YSYX:
+CLOSED: [2024-08-26 Mon 14:40] DEADLINE: <2024-08-26 Mon 11:30> SCHEDULED: <2024-08-26 Mon 10:00>
+:PROPERTIES:
+:Effort:   2:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-08-26 Mon 13:40]--[2024-08-26 Mon 14:40] =>  1:00
+CLOCK: [2024-08-26 Mon 11:21]--[2024-08-26 Mon 11:53] =>  0:32
+CLOCK: [2024-08-26 Mon 10:06]--[2024-08-26 Mon 11:04] =>  0:58
+:END:
+** DONE sdb debug information vs. GDB                           :YSYX:
+   CLOSED: [2024-08-26 Mon 20:00] SCHEDULED: <2024-08-26 Mon 19:00> DEADLINE: <2024-08-26 Mon 20:00>
+   :PROPERTIES:
+   :Effort:   1:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-08-26 Mon 18:32]--[2024-08-26 Mon 20:02] =>  1:30
+   :END:
+** DONE Assember language vs. risc-v command                           :YSYX:
+   CLOSED: [2024-08-26 Mon 20:58] DEADLINE: <2024-08-26 Mon 21:30> SCHEDULED: <2024-08-26 Mon 20:30>
+   :PROPERTIES:
+   :Effort:   1:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-08-26 Mon 20:17]--[2024-08-26 Mon 20:58] =>  0:41
+   :END:
+** DONE The performance between cisc vs. risc-v:                       :YSYX:
+     https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/
+   CLOSED: [2024-08-27 Tue 10:33]
+   DEADLINE: <2024-08-27 Tue 10:00> SCHEDULED: <2024-08-27 Tue 11:00>
+   :PROPERTIES:
+   :Effort:   1:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-08-27 Tue 10:10]--[2024-08-27 Tue 10:32] =>  0:22
+   :END:
+** DONE The table extension tech                                       :YSYX:
+   CLOSED: [2024-08-27 Tue 16:06] DEADLINE: <2024-08-27 Tue 11:00> SCHEDULED: <2024-08-27 Tue 12:00>
+   :PROPERTIES:
+   :Effort:   1:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-08-27 Tue 15:46]--[2024-08-27 Tue 16:06] =>  0:20
+   :END:
+** DONE The mean of imm                                                :YSYX:
+   CLOSED: [2024-08-27 Tue 16:20] DEADLINE: <2024-08-27 Tue 16:00> SCHEDULED: <2024-08-27 Tue 17:00>
+   :PROPERTIES:
+   :Effort:   1:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-08-27 Tue 16:06]--[2024-08-27 Tue 16:18] =>  0:12
+   :END:
+** DONE The mean of delay of difference                                :YSYX:
+   CLOSED: [2024-08-27 Tue 16:55] DEADLINE: <2024-08-27 Tue 17:00> SCHEDULED: <2024-08-27 Tue 19:30>
+   :PROPERTIES:
+   :Effort:   1:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-08-27 Tue 16:33]--[2024-08-27 Tue 16:54] =>  0:21
+   :END:
+** DONE Summary the PA QA                                              :YSYX:
+   CLOSED: [2024-08-27 Tue 22:43] DEADLINE: <2024-08-27 Tue 21:00> SCHEDULED: <2024-08-27 Tue 19:30>
+   :PROPERTIES:
+   :Effort:   2:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-08-27 Tue 19:27]--[2024-08-27 Tue 21:38] =>  2:11
+   CLOCK: [2024-08-27 Tue 19:01]--[2024-08-27 Tue 19:24] =>  0:23
+   :END:
+** DONE [YSYX]Summary AT&T Recursion code and execute flow             :YSYX:
+   CLOSED: [2024-09-16 Mon 19:10] SCHEDULED: <2024-09-09 Mon 19:00> DEADLINE: <2024-09-16 Mon 21:00>
+   :PROPERTIES:
+   :Effort:   2:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-09-16 Mon 15:07]--[2024-09-16 Mon 18:29] =>  3:22
+   CLOCK: [2024-09-13 Fri 11:27]--[2024-09-13 Fri 11:37] =>  0:10
+   CLOCK: [2024-09-09 Mon 19:12]--[2024-09-09 Mon 21:16] =>  2:04
+   :END:
+** CANCEL Basic addi cpu rtl code                                      :YSYX:
+   CLOSED: [2024-09-06 Fri 09:24] SCHEDULED: <2024-09-04 Wed 19:00> DEADLINE: <2024-09-05 Thu 21:00>
+   :PROPERTIES:
+   :Effort:   4:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-09-05 Thu 19:30]--[2024-09-05 Thu 21:20] =>  1:50
+   CLOCK: [2024-09-04 Wed 21:03]--[2024-09-04 Wed 21:44] =>  0:41
+   :END:
+** CANCEL NVboard add DPI-C mechanism                                  :YSYX:
+   CLOSED: [2024-09-08 Sun 19:59] SCHEDULED: <2024-09-06 Fri 19:00> DEADLINE: <2024-09-08 Sun 21:00>
+   :PROPERTIES:
+   :Effort:   4:00
+   :END:
+** SOMEDAY [YSYX]risc-v vs. AT&T                                       :YSYX:
+  :PROPERTIES:
+  :Effort:   2:00
+  :END:
+** SOMEDAY [YSYX]cisc vs. risc                                         :YSYX:
+  :PROPERTIES:
+  :Effort:   0:30
+  :END:
+** SOMEDAY [YSYX]table retension intro.                                :YSYX:
+  :PROPERTIES:
+  :Effort:   0:30
+  :END:
+** SOMEDAY [YSYX]risc-v imm intro.                                     :YSYX:
+  :PROPERTIES:
+  :Effort:   0:30
+  :END:
+** SOMEDAY [YSYX]branch delay intro.                                   :YSYX:
+  :PROPERTIES:
+  :Effort:   0:30
+  :END:
+** TODO [YSYX]makefile study                                           :YSYX:
+   SCHEDULED: <2024-10-04 Fri 19:00> DEADLINE: <2024-10-05 Sat 22:00>
+  :PROPERTIES:
+  :Effort:   4:30
+  :END:  
+** DONE [YSYX]AM class,how to add func                                 :YSYX:
+   CLOSED: [2024-09-22 Sun 13:10] SCHEDULED: <2024-09-22 Sun 10:30> DEADLINE: <2024-09-22 Sun 15:00>
+  :PROPERTIES:
+  :Effort:   3:00
+  :END:  
+  :LOGBOOK:
+  CLOCK: [2024-09-22 Sun 15:15]--[2024-09-22 Sun 15:16] =>  0:01
+  CLOCK: [2024-09-22 Sun 10:31]--[2024-09-22 Sun 13:10] =>  2:39
+  CLOCK: [2024-09-16 Mon 20:00]--[2024-09-16 Mon 21:36] =>  1:36
+  :END:
+** DONE [YSYX]basic AM test                                            :YSYX:
+   CLOSED: [2024-09-22 Sun 16:57] SCHEDULED: <2024-09-22 Sun 15:01> DEADLINE: <2024-09-22 Sun 22:00>
+  :PROPERTIES:
+  :Effort:   8:00
+  :END:  
+  :LOGBOOK:
+  CLOCK: [2024-09-22 Sun 15:33]--[2024-09-22 Sun 16:57] =>  1:24
+  CLOCK: [2024-09-22 Sun 14:52]--[2024-09-22 Sun 15:15] =>  0:23
+  :END:
+** TODO [YSYX]PA2 iringbuf/mtrace/ftrace function                      :YSYX:
+   SCHEDULED: <2024-09-23 Mon 15:01> DEADLINE: <2024-09-26 Thu 22:00>
+  :PROPERTIES:
+  :Effort:   8:00
+  :END:  
+** TODO [YSYX]easy single CPU test                                     :YSYX:
+   SCHEDULED: <2024-09-27 Mon 19:00> DEADLINE: <2024-10-03 Thu 22:00>
+  :PROPERTIES:
+  :Effort:   12:00
+  :END:  
+** TODO [YSYX]elf calss and homework                                   :YSYX:
+   SCHEDULED: <2024-09-27 Fri 19:00> DEADLINE: <2024-09-27 Fri 22:00>
+  :PROPERTIES:
+  :Effort:   3:00
+  :END:  
+** TODO [YSYX]debug calss and homework                                 :YSYX:
+   SCHEDULED: <2024-09-28 Sat 19:00> DEADLINE: <2024-09-28 Sat 22:00>
+  :PROPERTIES:
+  :Effort:   3:00
+  :END:  
+** TODO [YSYX]irq calss and homework                                   :YSYX:
+   SCHEDULED: <2024-10-01 Tue 19:00> DEADLINE: <2024-10-01 Tue 22:00>
+  :PROPERTIES:
+  :Effort:   3:00
+  :END:  
+** TODO [YSYX]bus calss and homework                                   :YSYX:
+   SCHEDULED: <2024-10-02 Wed 09:00> DEADLINE: <2024-10-04 Fri 18:00>
+  :PROPERTIES:
+  :Effort:   9:00
+  :END:  
+
+  
+
+* CANCEL CS50 class[100%]                                              :CS50:
+  CLOSED: [2024-09-24 Tue 15:34]
+** DONE [CS50]figure out how to do homework                            :CS50:
+   CLOSED: [2024-09-23 Mon 08:47] DEADLINE: <2024-09-22 Sun 21:00> SCHEDULED: <2024-09-22 Sun 19:00>
+   :PROPERTIES:
+   :Effort:   2:00
+   :END:
+   :LOGBOOK:
+   CLOCK: [2024-09-22 Sun 17:08]--[2024-09-22 Sun 18:34] =>  1:26
+   :END:
